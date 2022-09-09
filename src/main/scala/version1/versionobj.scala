@@ -189,9 +189,9 @@ object versionobj {
   .mode("append")
   .save()
   
-  
+// file to be saved in it 
   finaldf2.write.format("parquet").save("user/cloudera/custtab")
-println("file written")  
+println("file written in scala on 9 sept")  
   
 }
 
