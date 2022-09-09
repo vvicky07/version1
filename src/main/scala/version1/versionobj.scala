@@ -191,7 +191,7 @@ object versionobj {
   
 // file to be saved in it 
   finaldf2.write.format("parquet").save("user/cloudera/custtab")
-println("file written in scala")  
+println("file written in scala on 9 sept")  
   
 }
 
