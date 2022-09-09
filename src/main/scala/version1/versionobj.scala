@@ -191,7 +191,7 @@ object versionobj {
   
   
   finaldf2.write.format("parquet").save("user/cloudera/custtab")
-  
+println("file written")  
   
 }
 
